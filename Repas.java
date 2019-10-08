@@ -1,5 +1,5 @@
 
-import LocalDate;
+import java.util.LocalDate;
 
 public class Repas{
 	private int numero;
@@ -9,4 +9,13 @@ public class Repas{
 		this.numero = numero;
 		this.date = date;
 	}
+	
+	public void setNumero(int numero){
+		this.numero = numero;
+	}
+	
+	public int getNumero(){
+		return numero;
+	}
+	
 }
